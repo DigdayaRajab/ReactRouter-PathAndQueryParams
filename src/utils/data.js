@@ -342,7 +342,7 @@ function getUpcomingMovies() {
   return movies.filter(({ releaseDate }) => isFuture(releaseDate));
 }
 
-//
+//to page Detail
 function getMovie(id) {
   if (!id) {
     return null;
