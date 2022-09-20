@@ -6,6 +6,7 @@ class SearchBar extends React.Component {
     super(props);
 
     this.state = {
+      // dapat menerima defaultKeyword 2
       keyword: props.defaultKeyword || "",
     };
 
